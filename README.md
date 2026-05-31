@@ -4,11 +4,11 @@
 
 Skin Sense is an AI-powered mobile application developed using Flutter that helps users analyze facial skin conditions using deep learning. Users can upload facial images through the camera or gallery, receive AI-based skin condition predictions, monitor their skin health progress over time, and obtain personalized skincare recommendations.
 
-<img width="100" height="300" alt="signup" src="https://github.com/user-attachments/assets/7946ec79-5bd1-4714-84c9-9dc2bd6cd571" />
-<img width="100" height="300" alt="login" src="https://github.com/user-attachments/assets/0597862e-aee7-4cf8-bd46-61aa0dccac73" />
-<img width="100" height="300" alt="home" src="https://github.com/user-attachments/assets/4c591fcc-ada5-4a01-bbd1-b6a44f936ee1" />
-<img width="100" height="300" alt="view" src="https://github.com/user-attachments/assets/e534e61a-50a2-42cf-9c63-77ee678ea3e2" />
-<img width="100" height="300" alt="Screenshot 2026-05-20 233443" src="https://github.com/user-attachments/assets/083d8ac2-9513-4b8d-a548-b2f34b124744" />
+<img width="130" height="300" alt="signup" src="https://github.com/user-attachments/assets/7946ec79-5bd1-4714-84c9-9dc2bd6cd571" />
+<img width="130" height="300" alt="login" src="https://github.com/user-attachments/assets/0597862e-aee7-4cf8-bd46-61aa0dccac73" />
+<img width="130" height="300" alt="home" src="https://github.com/user-attachments/assets/4c591fcc-ada5-4a01-bbd1-b6a44f936ee1" />
+<img width="130" height="300" alt="view" src="https://github.com/user-attachments/assets/e534e61a-50a2-42cf-9c63-77ee678ea3e2" />
+<img width="130" height="300" alt="Screenshot 2026-05-20 233443" src="https://github.com/user-attachments/assets/083d8ac2-9513-4b8d-a548-b2f34b124744" />
 
 
 
