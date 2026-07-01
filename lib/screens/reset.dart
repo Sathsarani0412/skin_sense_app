@@ -32,9 +32,7 @@ class _ResetScreenState
 
   bool obscureConfirmPassword = true;
 
-  // -----------------------------------------
-  // RESET PASSWORD
-  // -----------------------------------------
+
 
   Future<void> resetPassword() async {
 
@@ -297,9 +295,6 @@ class _ResetScreenState
     );
   }
 
-  // -----------------------------------------
-  // PASSWORD FIELD
-  // -----------------------------------------
 
   Widget buildPasswordField({
 
@@ -369,10 +364,7 @@ class _ResetScreenState
     );
   }
 
-  // -----------------------------------------
-  // BUTTON
-  // -----------------------------------------
-
+  
   Widget buildButton({
 
     required String text,
