@@ -47,19 +47,14 @@ class _HomeScreenState
 
   bool isLoading = false;
 
-  // =========================================
-  // GET USER NAME
-  // =========================================
+ 
 
   String getUserName() {
 
     return widget.name;
   }
 
-  // =========================================
-  // PICK IMAGE FROM GALLERY
-  // =========================================
-
+  
   Future<void> uploadImage() async {
 
     final XFile? image =
@@ -83,9 +78,7 @@ class _HomeScreenState
     }
   }
 
-  // =========================================
-  // OPEN CAMERA
-  // =========================================
+
 
   Future<void> openCamera() async {
 
@@ -110,9 +103,7 @@ class _HomeScreenState
     }
   }
 
-  // =========================================
-  // PREDICT SKIN
-  // =========================================
+  
 
   Future<void> predictSkin() async {
 
@@ -225,9 +216,7 @@ class _HomeScreenState
     });
   }
 
-  // =========================================
-  // GET MOST AFFECTED ISSUE
-  // =========================================
+  
 
   String getMostAffectedIssue() {
 
@@ -290,9 +279,7 @@ class _HomeScreenState
 
                 children: [
 
-                  // =========================================
-                  // WELCOME
-                  // =========================================
+                 
 
                   Text(
 
@@ -311,9 +298,7 @@ class _HomeScreenState
 
                   const SizedBox(height: 20),
 
-                  // =========================================
-                  // IMAGE PREVIEW
-                  // =========================================
+                  
 
                   Center(
 
@@ -355,9 +340,7 @@ class _HomeScreenState
 
                   const SizedBox(height: 25),
 
-                  // =========================================
-                  // BUTTONS
-                  // =========================================
+                 
 
                   Row(
 
@@ -397,9 +380,7 @@ class _HomeScreenState
 
                   const SizedBox(height: 25),
 
-                  // =========================================
-                  // SKIN ANALYSIS TITLE
-                  // =========================================
+                
 
                   const Text(
 
@@ -416,9 +397,7 @@ class _HomeScreenState
 
                   const SizedBox(height: 20),
 
-                  // =========================================
-                  // PIE CHART + PERCENTAGES
-                  // =========================================
+                 
 
                   Row(
 
@@ -427,7 +406,7 @@ class _HomeScreenState
 
                     children: [
 
-                      // PIE CHART
+                      
 
                       Expanded(
 
@@ -506,7 +485,7 @@ class _HomeScreenState
 
                       const SizedBox(width: 15),
 
-                      // PERCENTAGES
+                      
 
                       Expanded(
 
@@ -570,10 +549,7 @@ class _HomeScreenState
 
                   const SizedBox(height: 25),
 
-                  // =========================================
-                  // LEGEND
-                  // =========================================
-
+                 
                   Wrap(
 
                     spacing: 15,
@@ -605,10 +581,7 @@ class _HomeScreenState
 
                   const SizedBox(height: 25),
 
-                  // =========================================
-                  // MOST AFFECTED ISSUE
-                  // =========================================
-
+                 
                   Container(
 
                     width: double.infinity,
@@ -672,9 +645,7 @@ class _HomeScreenState
 
                   const SizedBox(height: 20),
 
-                  // =========================================
-                  // RECOMMENDATION
-                  // =========================================
+                 
 
                   Container(
 
@@ -743,10 +714,7 @@ class _HomeScreenState
         ),
       ),
 
-      // =========================================
-      // BOTTOM NAVIGATION
-      // =========================================
-
+     
       bottomNavigationBar:
       BottomNavigationBar(
 
@@ -820,9 +788,7 @@ class _HomeScreenState
     );
   }
 
-  // =========================================
-  // BUTTON
-  // =========================================
+  
 
   Widget buildButton({
 
@@ -880,9 +846,6 @@ class _HomeScreenState
     );
   }
 
-  // =========================================
-  // LEGEND
-  // =========================================
 
   Widget buildLegend(
       Color color,
