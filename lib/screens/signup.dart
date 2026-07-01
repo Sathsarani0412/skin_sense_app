@@ -28,9 +28,7 @@ class _SignupScreenState extends State<SignupScreen> {
   bool obscurePassword = true;
   bool obscureConfirmPassword = true;
 
-  // -----------------------------------------
-  // SIGNUP FUNCTION
-  // -----------------------------------------
+ 
 
   Future<void> signupUser() async {
 
@@ -366,9 +364,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
   }
 
-  // -----------------------------------------
-  // TEXT FIELD
-  // -----------------------------------------
+  
 
   Widget buildTextField({
 
@@ -420,9 +416,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
   }
 
-  // -----------------------------------------
-  // PASSWORD FIELD
-  // -----------------------------------------
+  
 
   Widget buildPasswordField({
 
@@ -490,9 +484,7 @@ class _SignupScreenState extends State<SignupScreen> {
     );
   }
 
-  // -----------------------------------------
-  // BUTTON
-  // -----------------------------------------
+ 
 
   Widget buildButton({
 
