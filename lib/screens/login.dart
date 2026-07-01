@@ -25,9 +25,7 @@ class _LoginScreenState
 
   bool obscurePassword = true;
 
-  // -----------------------------------------
-  // LOGIN FUNCTION
-  // -----------------------------------------
+
 
   Future<void> loginUser() async {
 
@@ -309,9 +307,7 @@ class _LoginScreenState
     );
   }
 
-  // -----------------------------------------
-  // EMAIL FIELD
-  // -----------------------------------------
+ 
 
   Widget buildTextField({
 
@@ -368,10 +364,7 @@ class _LoginScreenState
     );
   }
 
-  // -----------------------------------------
-  // PASSWORD FIELD
-  // -----------------------------------------
-
+ 
   Widget buildPasswordField() {
 
     return Container(
@@ -446,9 +439,7 @@ class _LoginScreenState
     );
   }
 
-  // -----------------------------------------
-  // BUTTON
-  // -----------------------------------------
+  
 
   Widget buildButton({
 
